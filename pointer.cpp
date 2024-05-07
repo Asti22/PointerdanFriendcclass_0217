@@ -28,3 +28,8 @@ class segitiga{
         }
 
 };
+
+int main()
+{
+    persegiPanjang pp;
+}
