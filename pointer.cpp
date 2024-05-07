@@ -13,6 +13,8 @@ class persegiPanjang
 
 class segitiga{
 
-    public :
+    public : 
+        int tinggi,
+            alas;
 
 };
