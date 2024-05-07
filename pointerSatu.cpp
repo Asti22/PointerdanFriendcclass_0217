@@ -19,4 +19,7 @@ int main(){
     mhs.showNim();
 
     mahasiswa *pMhs = &mhs; //pointer deferencence pmhs
+    pMhs ->nim =3; //arrow operator
+    pMhs ->showNim();
+    return 0;
 }
