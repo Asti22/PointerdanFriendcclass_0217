@@ -19,7 +19,7 @@ class segitiga{
 
         int luasSegitiga(int a, int t)
         {
-            return 0.5 * a *t;
+            return 0.5 * a * t;
         }
 
         int hitung(persegiPanjang p)
@@ -35,5 +35,14 @@ int main()
     segitiga sg;
     cout << "Masukan panjang : ";
     cin>> pp.panjang;
+    cout << "Masukan lebar: ";
+    cin >> pp.lebar;
+    cout << "MasukanTinggi: ";
+    cin>> sg.tinggi; 
+    cout << "Masukan alas :";
+    cin>> sg.alas;
+    cout <<" Luas Persegi Panjang :" << pp.luasPersegiPanjang (pp.panjang, pp.lebar) <<endl;
+    cout << "Luas Segitiga :" << sg.luasSegitiga(sg.alas, sg.tinggi)<< endl;
+
 
 }
