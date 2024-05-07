@@ -12,5 +12,11 @@ class mahasiswa{
 
 int main(){
     mahasiswa mhs{1};  //object mhs
-    m
+    mhs.showNim(); //member acces operator
+
+    mahasiswa &refMhs = mhs; //pinter reference refMhs
+    refMhs.nim = 2; //member acces operaror
+    mhs.showNim();
+
+    mahasiswa *pMhs = &mhs; //pointer deferencence pmhs
 }
